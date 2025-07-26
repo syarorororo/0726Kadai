@@ -131,9 +131,10 @@ GameObject:
   - component: {fileID: 44933952}
   - component: {fileID: 44933951}
   - component: {fileID: 44933950}
+  - component: {fileID: 44933953}
   m_Layer: 0
   m_Name: Enemy (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,6 +228,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44933948}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &44933953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44933948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &99933065
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,9 +255,10 @@ GameObject:
   - component: {fileID: 99933069}
   - component: {fileID: 99933068}
   - component: {fileID: 99933067}
+  - component: {fileID: 99933070}
   m_Layer: 0
   m_Name: Enemy (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,6 +352,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99933065}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &99933070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99933065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &156246326
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,9 +379,10 @@ GameObject:
   - component: {fileID: 156246330}
   - component: {fileID: 156246329}
   - component: {fileID: 156246328}
+  - component: {fileID: 156246331}
   m_Layer: 0
   m_Name: Enemy (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,6 +476,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156246326}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &156246331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156246326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &189009506
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,9 +503,10 @@ GameObject:
   - component: {fileID: 189009510}
   - component: {fileID: 189009509}
   - component: {fileID: 189009508}
+  - component: {fileID: 189009511}
   m_Layer: 0
   m_Name: Enemy (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,6 +600,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189009506}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &189009511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189009506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &248220434
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,9 +735,10 @@ GameObject:
   - component: {fileID: 249127906}
   - component: {fileID: 249127905}
   - component: {fileID: 249127904}
+  - component: {fileID: 249127907}
   m_Layer: 0
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,6 +832,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249127902}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &249127907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249127902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &450963936
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,9 +859,10 @@ GameObject:
   - component: {fileID: 450963940}
   - component: {fileID: 450963939}
   - component: {fileID: 450963938}
+  - component: {fileID: 450963941}
   m_Layer: 0
   m_Name: Enemy (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,6 +956,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450963936}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &450963941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450963936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &569543755
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,9 +983,10 @@ GameObject:
   - component: {fileID: 569543759}
   - component: {fileID: 569543758}
   - component: {fileID: 569543757}
+  - component: {fileID: 569543760}
   m_Layer: 0
   m_Name: Enemy (22)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -983,6 +1080,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569543755}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &569543760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569543755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &719031046
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,9 +1107,10 @@ GameObject:
   - component: {fileID: 719031050}
   - component: {fileID: 719031049}
   - component: {fileID: 719031048}
+  - component: {fileID: 719031051}
   m_Layer: 0
   m_Name: Enemy (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1091,6 +1204,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719031046}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &719031051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719031046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &736736852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,9 +1231,10 @@ GameObject:
   - component: {fileID: 736736856}
   - component: {fileID: 736736855}
   - component: {fileID: 736736854}
+  - component: {fileID: 736736857}
   m_Layer: 0
   m_Name: Enemy (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1199,6 +1328,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736736852}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &736736857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736736852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &766240551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,9 +1355,10 @@ GameObject:
   - component: {fileID: 766240555}
   - component: {fileID: 766240554}
   - component: {fileID: 766240553}
+  - component: {fileID: 766240556}
   m_Layer: 0
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1307,6 +1452,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766240551}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &766240556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766240551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &777105436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,9 +1479,10 @@ GameObject:
   - component: {fileID: 777105440}
   - component: {fileID: 777105439}
   - component: {fileID: 777105438}
+  - component: {fileID: 777105441}
   m_Layer: 0
   m_Name: Enemy (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1415,6 +1576,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777105436}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &777105441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777105436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &778629707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,9 +1603,10 @@ GameObject:
   - component: {fileID: 778629711}
   - component: {fileID: 778629710}
   - component: {fileID: 778629709}
+  - component: {fileID: 778629712}
   m_Layer: 0
   m_Name: Enemy (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1523,6 +1700,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778629707}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &778629712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778629707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &811690511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1726,7 @@ GameObject:
   - component: {fileID: 811690512}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1690,9 +1882,10 @@ GameObject:
   - component: {fileID: 1010085814}
   - component: {fileID: 1010085813}
   - component: {fileID: 1010085812}
+  - component: {fileID: 1010085815}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1786,6 +1979,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010085810}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1010085815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010085810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1054956437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,9 +2006,10 @@ GameObject:
   - component: {fileID: 1054956441}
   - component: {fileID: 1054956440}
   - component: {fileID: 1054956439}
+  - component: {fileID: 1054956442}
   m_Layer: 0
   m_Name: Enemy (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1894,6 +2103,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054956437}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1054956442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054956437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1079009861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,9 +2238,10 @@ GameObject:
   - component: {fileID: 1137237696}
   - component: {fileID: 1137237695}
   - component: {fileID: 1137237694}
+  - component: {fileID: 1137237697}
   m_Layer: 0
   m_Name: Enemy (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2110,6 +2335,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137237692}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1137237697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137237692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1155544638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,9 +2418,10 @@ GameObject:
   - component: {fileID: 1322580884}
   - component: {fileID: 1322580883}
   - component: {fileID: 1322580882}
+  - component: {fileID: 1322580885}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2274,6 +2515,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322580880}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1322580885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322580880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1349861644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,9 +2542,10 @@ GameObject:
   - component: {fileID: 1349861648}
   - component: {fileID: 1349861647}
   - component: {fileID: 1349861646}
+  - component: {fileID: 1349861649}
   m_Layer: 0
   m_Name: Enemy (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2382,6 +2639,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349861644}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1349861649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349861644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1374617348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,9 +2666,10 @@ GameObject:
   - component: {fileID: 1374617352}
   - component: {fileID: 1374617351}
   - component: {fileID: 1374617350}
+  - component: {fileID: 1374617353}
   m_Layer: 0
   m_Name: Enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2490,6 +2763,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374617348}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1374617353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374617348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1478792101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,9 +2790,10 @@ GameObject:
   - component: {fileID: 1478792105}
   - component: {fileID: 1478792104}
   - component: {fileID: 1478792103}
+  - component: {fileID: 1478792106}
   m_Layer: 0
   m_Name: Enemy (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2598,6 +2887,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478792101}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1478792106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478792101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1493176296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2718,9 +3022,10 @@ GameObject:
   - component: {fileID: 1586163034}
   - component: {fileID: 1586163033}
   - component: {fileID: 1586163032}
+  - component: {fileID: 1586163035}
   m_Layer: 0
   m_Name: Enemy (23)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2814,6 +3119,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586163030}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1586163035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586163030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1684410253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,9 +3146,10 @@ GameObject:
   - component: {fileID: 1684410257}
   - component: {fileID: 1684410256}
   - component: {fileID: 1684410255}
+  - component: {fileID: 1684410258}
   m_Layer: 0
   m_Name: Enemy (21)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,6 +3243,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684410253}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1684410258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684410253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1715473840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,9 +3270,10 @@ GameObject:
   - component: {fileID: 1715473844}
   - component: {fileID: 1715473843}
   - component: {fileID: 1715473842}
+  - component: {fileID: 1715473845}
   m_Layer: 0
   m_Name: Enemy (24)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3030,6 +3367,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715473840}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1715473845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715473840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1751400263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,9 +3394,10 @@ GameObject:
   - component: {fileID: 1751400267}
   - component: {fileID: 1751400266}
   - component: {fileID: 1751400265}
+  - component: {fileID: 1751400268}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3138,6 +3491,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751400263}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1751400268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751400263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1789866403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,9 +3518,10 @@ GameObject:
   - component: {fileID: 1789866407}
   - component: {fileID: 1789866406}
   - component: {fileID: 1789866405}
+  - component: {fileID: 1789866408}
   m_Layer: 0
   m_Name: Enemy (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3246,6 +3615,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789866403}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1789866408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789866403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1 &1827114969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,6 +3641,7 @@ GameObject:
   - component: {fileID: 1827114972}
   - component: {fileID: 1827114971}
   - component: {fileID: 1827114970}
+  - component: {fileID: 1827114973}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3331,13 +3716,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827114969}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827114973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827114969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &2042031225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,9 +3779,10 @@ GameObject:
   - component: {fileID: 2042031229}
   - component: {fileID: 2042031228}
   - component: {fileID: 2042031227}
+  - component: {fileID: 2042031230}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3446,6 +3876,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042031225}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2042031230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042031225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2fbaed94cb39c4fbf44b56641656b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeIntensityPosition: 0.1
+  shakeIntensityRotation: 1
+  shakeTime: 0.5
 --- !u!1001 &6667419437728040976
 PrefabInstance:
   m_ObjectHideFlags: 0
